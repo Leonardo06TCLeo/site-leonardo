@@ -1,4 +1,4 @@
-# Leonardo Taleb | Personal Portfolio
+# Leonardo Taleb | Website
 
 This repository contains the first version of my personal portfolio website, developed to present my academic and practical projects in a more organized and professional way.
 
