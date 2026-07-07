@@ -12,7 +12,7 @@ https://stupendous-gumdrop-d5dc85.netlify.app/
 
 ## About the Project
 
-This portfolio was created to centralize my projects as a Computer Engineering student and to present my progress in software development, web development, back-end, full stack applications, APIs, embedded systems, and applied artificial intelligence.
+This website was created to centralize my projects as a Computer Engineering student and to present my progress in software development, web development, back-end, full stack applications, APIs, embedded systems, and applied artificial intelligence.
 
 The main goal of this project is to make my work more accessible to recruiters, professors, colleagues, and people interested in my technical development.
 
