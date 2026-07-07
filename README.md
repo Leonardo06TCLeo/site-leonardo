@@ -84,7 +84,7 @@ Some planned improvements for future versions include:
 ## Project Structure
 
 ```text
-portfolio/
+website/
 │
 ├── index.html
 ├── style.css
