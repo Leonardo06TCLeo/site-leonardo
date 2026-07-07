@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Leonardo Taleb | Portfólio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1>
+        <a href="#inicio" class="logo">Leonardo Taleb</a>
+      </h1>
+
+      <ul>
+        <li><a href="#inicio" data-i18n="navInicio">Início</a></li>
+        <li><a href="#sobre" data-i18n="navSobre">Sobre</a></li>
+        <li><a href="#projetos" data-i18n="navProjetos">Projetos</a></li>
+        <li><a href="#contato" data-i18n="navContato">Contato</a></li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button id="language-toggle" type="button">EN</button>
+        <button id="theme-toggle" type="button">Tema claro</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+      <section id="inicio" class="hero">
+      <div>
+
+        <div class="hero-links">
+          <a href="https://github.com/Leonardo06TCLeo" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+
+        <a href="https://www.linkedin.com/in/leonardo-taleb-contini-039ab1341" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+
+        <a href="assets/curriculo-leonardo.pdf" download data-i18n="curriculoBotao">
+          Baixar currículo
+        </a>
+      </div>
+
+      <h2 data-i18n="heroTitulo">
+        Engenharia de Computação | Software | IA | Sistemas Embarcados
+      </h2>
+
+
+
+        <p data-i18n="heroTexto">
+          Sou estudante de Engenharia de Computação e desenvolvo projetos envolvendo programação,
+          sistemas embarcados, automação, desenvolvimento web, back-end, APIs e inteligência artificial aplicada.
+        </p>
+
+        <a href="#projetos" class="botao" data-i18n="heroBotao">Ver projetos</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao">
+      <h2 data-i18n="sobreTitulo">Sobre mim</h2>
+
+      <p data-i18n="sobreTexto1">
+        Sou estudante de Engenharia da Computação na UNAERP, com interesse em desenvolvimento de software,
+        back-end, full stack, ciência de dados, inteligência artificial aplicada e pesquisa científica.
+      </p>
+
+      <p data-i18n="sobreTexto2">
+        Tenho conhecimentos em Java, Python, SQL, JavaScript, Node.js, Express, HTML, CSS,
+        Google Apps Script e integração com Google Sheets. Atualmente, venho desenvolvendo projetos
+        práticos para fortalecer minha base em lógica de programação, APIs REST, sistemas CRUD,
+        manipulação e validação de dados, interfaces web, regras de negócio e soluções aplicadas.
+      </p>
+
+      <p data-i18n="sobreTexto3">
+        Meu objetivo é construir uma formação sólida em tecnologia, unindo programação, engenharia,
+        dados e inteligência artificial para desenvolver aplicações úteis, escaláveis e bem estruturadas.
+        No momento, estou organizando meu portfólio no GitHub com projetos web, APIs, automações e
+        projetos acadêmicos, além de iniciar uma trilha de estudos voltada à pesquisa aplicada,
+        análise de dados e machine learning.
+      </p>
+    </section>
+
+    <section id="projetos" class="secao">
+      <h2 data-i18n="projetosTitulo">Principais projetos</h2>
+
+      <div class="projetos-container">
+
+        <div class="card projeto-card" data-projeto="arduino">
+          <h3 data-i18n="cardArduinoTitulo">Mini Console Arduino</h3>
+
+          <p data-i18n="cardArduinoDescricao">
+            Projeto com Arduino Uno, display OLED, botões físicos e jogos como Pong e Space Invaders.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            Arduino, C/C++, OLED, Eletrônica
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="estoque">
+          <h3 data-i18n="cardEstoqueTitulo">Sistema de Controle de Estoque</h3>
+
+          <p data-i18n="cardEstoqueDescricao">
+            Sistema em Java para cadastrar produtos, controlar quantidade, preço e exibir informações do estoque.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            Java, ArrayList, Scanner, POO
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="casas">
+          <h3 data-i18n="cardCasasTitulo">Site de Simulação de Casas</h3>
+
+          <p data-i18n="cardCasasDescricao">
+            Aplicação web para simular valores, retorno de investimento e amortização de imóveis.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            HTML, CSS, JavaScript, Google Apps Script, Google Sheets
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="cotacao">
+          <h3 data-i18n="cardCotacaoTitulo">Cotação de Moedas Full-Stack</h3>
+
+          <p data-i18n="cardCotacaoDescricao">
+            Sistema full-stack para consulta de cotações de moedas, com integração entre backend, frontend e API externa.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            Node.js, Express, Axios, CORS, HTML, CSS e JavaScript
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="crm">
+          <h3 data-i18n="cardCrmTitulo">Sistema CRM Full Stack</h3>
+
+          <p data-i18n="cardCrmDescricao">
+            Sistema CRM full stack com autenticação de usuários, dashboard e CRUD completo para gerenciamento de clientes.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            React, Vite, Node.js, Express, MySQL, JWT, Bcrypt, Axios e CSS
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="login">
+          <h3 data-i18n="cardLoginTitulo">Sistema de Login e Cadastro</h3>
+
+          <p data-i18n="cardLoginDescricao">
+            Sistema de autenticação com cadastro de usuários, login, senha criptografada, JWT e dashboard protegido.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            Node.js, Express, SQLite, JWT, HTML, CSS e JavaScript
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="crudUsuarios">
+          <h3 data-i18n="cardCrudTitulo">Sistema CRUD de Usuários</h3>
+
+          <p data-i18n="cardCrudDescricao">
+            Sistema full stack para cadastrar, listar, editar e excluir usuários, com integração entre frontend, backend e banco de dados.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            HTML, CSS, JavaScript, Node.js, Express e SQLite
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+        <div class="card projeto-card" data-projeto="caixaEletronico">
+          <h3 data-i18n="cardCaixaTitulo">Simulador de Caixa Eletrônico em C</h3>
+
+          <p data-i18n="cardCaixaDescricao">
+            Simulador de caixa eletrônico desenvolvido em C, com login, saldo, depósito, saque, transferência, extrato e validações.
+          </p>
+
+          <p>
+            <strong data-i18n="tecnologiasLabel">Tecnologias:</strong>
+            Linguagem C, lógica de programação, estruturas condicionais e laços
+          </p>
+
+          <button class="btn-detalhes" type="button" data-i18n="verDetalhes">Ver detalhes</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2 data-i18n="contatoTitulo">Contato</h2>
+
+      <p>
+        <span data-i18n="githubTexto">GitHub:</span>
+        <a href="https://github.com/Leonardo06TCLeo" target="_blank" rel="noopener noreferrer">
+          github.com/Leonardo06TCLeo
+        </a>
+      </p>
+
+      <p>
+        <span data-i18n="linkedinTexto">LinkedIn:</span>
+        <a href="https://www.linkedin.com/in/leonardo-taleb-contini-039ab1341" target="_blank" rel="noopener noreferrer">
+          www.linkedin.com/in/leonardo-taleb-contini-039ab1341
+        </a>
+      </p>
+
+      <p>
+        <span data-i18n="emailTexto">Email:</span>
+        leonardotalebcontini@gmail.com
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p data-i18n="footerTexto">© 2026 Leonardo Taleb. Todos os direitos reservados.</p>
+  </footer>
+
+  <div id="modal-projeto" class="modal">
+    <div class="modal-conteudo">
+
+      <button id="fechar-modal" class="fechar-modal" type="button">&times;</button>
+
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-descricao"></p>
+
+      <h3 data-i18n="modalObjetivoTitulo">Objetivo do projeto</h3>
+      <p id="modal-objetivo"></p>
+
+      <h3 data-i18n="modalFuncionalidadesTitulo">Funcionalidades</h3>
+      <ul id="modal-funcionalidades"></ul>
+
+      <h3 data-i18n="modalTecnologiasTitulo">Tecnologias utilizadas</h3>
+      <p id="modal-tecnologias"></p>
+
+      <a id="modal-github" href="#" target="_blank" rel="noopener noreferrer" class="botao-github" data-i18n="modalGithub">
+        Ver no GitHub
+      </a>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
